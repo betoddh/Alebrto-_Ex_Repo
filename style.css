@@ -4,5 +4,64 @@
 }
 
 body {
-    background-color: lightslategrey;
+    background-color: rgb(225, 230, 235);
 }
+#log_cent{
+    
+    position: sticky;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 15px;
+    
+}
+.center{
+    text-align: center;
+    border: 5px;
+    padding: 15px;
+}
+.center_buttons{
+    text-align: center;
+    display: inline-block;
+    border: none;
+    padding: 15px 25px;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(53, 230, 171);
+    border:none;
+    border-radius: 45px;
+    
+}
+
+.center_buttons:hover {background-color: rgb(6, 241, 124)}
+
+.center_buttons:active {
+    background-color: rgb(6, 241, 124);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+.center_buttons2{
+    text-align: center;
+    display: inline-block;
+    border: none;
+    padding: 15px 25px;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(76, 91, 235);
+    border:none;
+    border-radius: 45px;
+}
+.center_buttons2:hover {background-color: rgb(41, 61, 238)}
+
+.center_buttons2:active {
+    background-color: rgb(41, 61, 238);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
