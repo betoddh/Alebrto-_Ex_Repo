@@ -5,6 +5,7 @@
 
 body {
     background-color: rgb(225, 230, 235);
+    margin: 5px solid black;
 }
 #log_cent{
     
@@ -17,8 +18,12 @@ body {
 }
 .center{
     text-align: center;
-    border: 5px;
+    
     padding: 15px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 .center_buttons{
     text-align: center;
@@ -65,3 +70,5 @@ body {
     box-shadow: 0 5px #666;
     transform: translateY(4px);
   }
+  
+ 
